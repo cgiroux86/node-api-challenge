@@ -7,6 +7,6 @@ app.use(express.json());
 app.use("/api/projects", projectsRouter);
 app.use("/api/actions", actionsRouter);
 
-app.listen(4500, () => {
+app.listen(process.env.PORT || 4500, () => {
   console.log("listening on port 4200");
 });
