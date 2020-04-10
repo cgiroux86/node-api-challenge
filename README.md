@@ -40,13 +40,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+I learned that express is very focused on middleware and that it is a library for making writing backends in node much easier.
+
 - [ ] Describe Middleware?
+
+Middleware is kind of like a conditional for a function. It runs and checks something before it either throws and error and exits or continutes to the NEXT function in the chain.
 
 - [ ] Describe a Resource?
 
+A resource is something we can use to derive information or data from on the backend.
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+A status code in the 200's
+
 - [ ] How can we partition our application into sub-applications?
+
+By using router and routes
 
 ## Minimum Viable Product
 
